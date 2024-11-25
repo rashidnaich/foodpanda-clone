@@ -1,0 +1,215 @@
+* {
+    margin: 0%;
+    z-index: 1;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+    display: flex block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+
+.first {
+    cursor: pointer;
+    border-image: fill;
+    
+}
+
+i {
+    cursor: pointer;
+}
+
+.third {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    justify-content: center;
+}
+
+.third ul {
+
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+.fa-globe {
+    font-size: 18px;
+}
+
+.globe :hover {
+    background-color: rgba(143, 139, 139, 0.9);
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding-right: 90px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+
+
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+
+
+.locate-btn {
+    background-color: white;
+    color: #333;
+
+}
+
+.input-group {
+    display: flex block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.input-group input {
+    border: none;
+    padding: 10px;
+    
+}
+
+.input-group button {
+    border: none;
+    background-color: #C21760;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+.find-btn {
+    background-color: #ff007f;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-content {
+    position: relative;
+    margin-right: -50px;
+
+}
+
+.panda-image {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+}
+
+.main {
+    line-height: normal;
+    background-color: whitesmoke;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding-left: 20px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    position: relative;
+    bottom: 100px;
+    font-size: 18px;
+
+
+
+}
+.text3 ,h1{
+    margin: 0%;
+    margin-bottom: 10px;
+}
+
+.getstarted button {
+    border: 1px solid ;
+    margin-top: 25px;
+    border-radius: 20px;
+    padding : 20px;
+    font-size: 20px;
+    background-color: #C21760;
+    color: white;
+    cursor: pointer;
+}
+.bottom{
+    position: absolute;
+    background-color: #f8f8f8;
+    margin-left: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+#web{
+    padding-left: 12px;
+    font-size: 30px;
+}
+.second{
+    height: 190px;
+    width: 40px;
+    display: flex block;
+    position: relative;
+    padding-left: 40px;
+    
+
+}
